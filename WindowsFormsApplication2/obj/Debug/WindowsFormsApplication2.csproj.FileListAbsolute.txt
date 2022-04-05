@@ -17,3 +17,6 @@ C:\Users\Mauricio Costa\Documents\Visual Studio 2015\Projects\WindowsFormsApplic
 C:\Users\Mauricio Costa\Documents\Visual Studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.mostrar_no_funcionario.resources
 C:\Users\Mauricio Costa\Documents\Visual Studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
 C:\Users\Mauricio Costa\Documents\Visual Studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\Mauricio Costa\Documents\GitHub\projecto-c-\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Mauricio Costa\Documents\GitHub\projecto-c-\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Mauricio Costa\Documents\GitHub\projecto-c-\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
