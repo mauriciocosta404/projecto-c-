@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2CED364-3E05-4029-B058-CAC608EA09C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication2</RootNamespace>
+    <AssemblyName>WindowsFormsApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Bunifu_UI_v1.5.3\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="actualizar_candidat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actualizar_candidat.Designer.cs">
+      <DependentUpon>actualizar_candidat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="array.cs" />
+    <Compile Include="cl_estatistica.cs" />
+    <Compile Include="consultar_candidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultar_candidato.Designer.cs">
+      <DependentUpon>consultar_candidato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dados_do_funcionario.cs" />
+    <Compile Include="eliminar_candidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eliminar_candidato.Designer.cs">
+      <DependentUpon>eliminar_candidato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="escrever_candidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="escrever_candidato.Designer.cs">
+      <DependentUpon>escrever_candidato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="estatistica_de_funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estatistica_de_funcionario.Designer.cs">
+      <DependentUpon>estatistica_de_funcionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="integrantes_do_grupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="integrantes_do_grupo.Designer.cs">
+      <DependentUpon>integrantes_do_grupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listar_candidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listar_candidato.Designer.cs">
+      <DependentUpon>listar_candidato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_principal.Designer.cs">
+      <DependentUpon>menu_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mostrar_no_funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mostrar_no_funcionario.Designer.cs">
+      <DependentUpon>mostrar_no_funcionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="actualizar_candidat.resx">
+      <DependentUpon>actualizar_candidat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultar_candidato.resx">
+      <DependentUpon>consultar_candidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminar_candidato.resx">
+      <DependentUpon>eliminar_candidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="escrever_candidato.resx">
+      <DependentUpon>escrever_candidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estatistica_de_funcionario.resx">
+      <DependentUpon>estatistica_de_funcionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="integrantes_do_grupo.resx">
+      <DependentUpon>integrantes_do_grupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listar_candidato.resx">
+      <DependentUpon>listar_candidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_principal.resx">
+      <DependentUpon>menu_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mostrar_no_funcionario.resx">
+      <DependentUpon>mostrar_no_funcionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\untitled1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baixados.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baixados %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to-do-list %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2811%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2814%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baixados %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baixados %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baixados %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2815%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2811%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2813%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baixados %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baixados %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to-do-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\untitled2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\untitled3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
